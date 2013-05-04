@@ -20,6 +20,7 @@
     <uses-sdk android:minSdkVersion="7" />
 
     <application>
+        <!-- 
         <activity
 		    android:name="com.ipaulpro.afilechooser.FileChooserActivity"
 		    android:icon="@drawable/ic_chooser"
@@ -30,10 +31,10 @@
 	            <category android:name="android.intent.category.DEFAULT" />
 	            <category android:name="android.intent.category.OPENABLE" />
 	
-	            <!-- FIXME: Make sure this intent handler only works within the app and not from external pickers -->
 	            <data android:mimeType="*/*" />
 	        </intent-filter>
 	    </activity>
+         -->
     </application>
     
 </manifest>
